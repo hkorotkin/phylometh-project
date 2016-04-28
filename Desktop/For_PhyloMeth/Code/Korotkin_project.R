@@ -47,4 +47,4 @@ plot(ultra,st,type="phylogram",cex=0.6)
 nodelabels(thermo=t(st),piecol=c("blue","red"),cex=.4)
 
 
-trait.changes.asr(ultra,traits)
+trait.changes.asr(ultra,traits,3)
