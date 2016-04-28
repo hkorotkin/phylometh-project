@@ -2,7 +2,7 @@
 #Randomizing character traits then sampling over x amount of iterations and then counting the number of changes
 
 
-trait.changes.asr <- function (tree, traits, nreps=10) {
+trait.changes.asr <- function (tree, traits, nreps=5) {
 	res.final <- c()
 	for (i in 1:nreps) {
 		print(i)	
